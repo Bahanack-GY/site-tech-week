@@ -6,7 +6,8 @@
         "schedule": "Programme",
         "schools": "Écoles",
         "budget": "Budget",
-        "contact": "Contact"
+        "contact": "Contact",
+        "partners": "Partenaires"
     },
     "hero": {
         "title": "TECH\nWEEK\n2025",
@@ -143,5 +144,14 @@
     "gallery": {
         "title": "Éditions Précédentes",
         "subtitle": "Revivez les meilleurs moments de nos hackathons passés"
+    },
+    "footer": {
+        "brand_desc": "Bâtir le plus grand rassemblement technologique académique du Cameroun.",
+        "quick_links": "Liens Rapides",
+        "legal": "Légal",
+        "privacy": "Politique de Confidentialité",
+        "terms": "Conditions d'Utilisation",
+        "connect": "Restons Connectés",
+        "rights": "Tous droits réservés."
     }
 }

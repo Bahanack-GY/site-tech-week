@@ -6,7 +6,8 @@
         "schedule": "Schedule",
         "schools": "Schools",
         "budget": "Budget",
-        "contact": "Contact"
+        "contact": "Contact",
+        "partners": "Partners"
     },
     "hero": {
         "title": "TECH\nWEEK\n2025",
@@ -143,5 +144,14 @@
     "gallery": {
         "title": "Past Editions",
         "subtitle": "Relive the best moments of our previous hackathons"
+    },
+    "footer": {
+        "brand_desc": "Building the largest academic technology gathering in Cameroon.",
+        "quick_links": "Quick Links",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "connect": "Connect With Us",
+        "rights": "All rights reserved."
     }
 }

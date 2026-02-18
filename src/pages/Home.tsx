@@ -7,7 +7,7 @@ import Impact from '../components/Impact';
 import ParticipatingSchools from '../components/ParticipatingSchools';
 import Partners from '../components/Partners';
 import Gallery from '../components/Gallery';
-import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <Partners />
       <Gallery />
       <Impact />
-      <Contact />
+      <Footer />
     </div>
   );
 }
