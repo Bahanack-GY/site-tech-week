@@ -11,7 +11,17 @@
     "hero": {
         "title": "TECH\nWEEK\n2025",
         "subtitle": "\"Bâtir le plus grand rassemblement technologique académique du Cameroun\"",
-        "cta": "Découvrir Plus"
+        "cta": "Découvrir Plus",
+        "countdown": {
+            "days": "Jours",
+            "hours": "Heures",
+            "minutes": "Minutes",
+            "seconds": "Secondes"
+        }
+    },
+    "schools": {
+        "title": "Écoles Participantes",
+        "subtitle": "Réunissant les étudiants des institutions technologiques majeures du Cameroun"
     },
     "vision": {
         "title": "Vision & Ambition du Projet",
@@ -118,5 +128,20 @@
         "school": "École Nationale Supérieure Polytechnique de Yaoundé (ENSPY)",
         "phone": "Téléphone",
         "email": "Email"
+    },
+    "partners": {
+        "title": "Partenariats & Patronages",
+        "subtitle": "Le succès de cette initiative repose sur la mobilisation des acteurs clés du pays",
+        "public": "Institutions Publiques",
+        "private": "Secteur Privé",
+        "international": "Organismes Internationaux"
+    },
+    "guests": {
+        "title": "Invités d'Honneur",
+        "subtitle": "Nous ambitionnons d'associer des figures inspirantes"
+    },
+    "gallery": {
+        "title": "Éditions Précédentes",
+        "subtitle": "Revivez les meilleurs moments de nos hackathons passés"
     }
 }

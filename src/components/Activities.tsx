@@ -18,7 +18,7 @@ export default function Activities() {
   return (
     <div 
       id="activities"
-      className="relative min-h-[800px] overflow-hidden bg-black"
+      className="relative z-10 min-h-[800px] overflow-hidden bg-black"
       onMouseMove={(e) => {
         const rect = e.currentTarget.getBoundingClientRect();
         const x = e.clientX - rect.left;

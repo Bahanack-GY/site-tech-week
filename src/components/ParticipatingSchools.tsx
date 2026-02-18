@@ -22,7 +22,7 @@ export default function ParticipatingSchools() {
   ];
 
   return (
-    <Section id="schools" className="bg-black/40">
+    <Section id="schools" className="">
       <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center neon-text">
         {t('schools.title')}
       </h2>
@@ -31,17 +31,19 @@ export default function ParticipatingSchools() {
         {t('schools.subtitle')}
       </p>
 
-      <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-        {schools.map((school, index) => (
-          <div 
-            key={index} 
-            className="px-6 py-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-md hover:bg-neon-cyan/20 hover:border-neon-cyan/50 hover:shadow-[0_0_15px_rgba(0,243,255,0.3)] transition-all duration-300 cursor-default"
-          >
-            <span className="text-white font-medium text-sm md:text-base tracking-wide">
-              {school}
-            </span>
-          </div>
-        ))}
+      <div className="relative w-full overflow-hidden mask-linear-fade">
+        <div className="flex w-max gap-8 animate-marquee hover:pause">
+          {[...schools, ...schools, ...schools].map((school, index) => (
+            <div 
+              key={index} 
+              className="px-8 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-md hover:bg-neon-cyan/20 hover:border-neon-cyan/50 hover:shadow-[0_0_15px_rgba(0,243,255,0.3)] transition-all duration-300 cursor-default whitespace-nowrap"
+            >
+              <span className="text-white font-medium text-lg tracking-wide">
+                {school}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
     </Section>
   );

@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next';
 import Section from './Section';
 import { FaLaptopCode, FaHandshake, FaLightbulb } from 'react-icons/fa';
 
+import TechWeekFinal from '../assets/Tech-week-final.png';
+
 export default function Vision() {
   const { t } = useTranslation();
 
@@ -34,14 +36,13 @@ export default function Vision() {
           </div>
         </div>
         
-        <div className="relative h-[400px] rounded-2xl overflow-hidden glass-panel border-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-neon-purple/20 to-neon-cyan/20 z-10" />
-           {/* Abstract visual representation since we don't have specific images */}
-           <div className="absolute inset-0 flex items-center justify-center">
-              <FaLaptopCode className="text-9xl text-white/5" />
-           </div>
-           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-neon-cyan rounded-full blur-[80px] opacity-20" />
-           <div className="absolute bottom-0 right-0 w-full h-1/2 bg-gradient-to-t from-black/80 to-transparent z-20" />
+        <div className="relative rounded-2xl overflow-hidden glass-panel border-0 group">
+          <div className="absolute inset-0 bg-linear-to-br from-neon-purple/20 to-neon-cyan/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+          <img 
+            src={TechWeekFinal} 
+            alt="Tech Week Vision" 
+            className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+          />
         </div>
       </div>
     </Section>

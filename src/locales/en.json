@@ -11,7 +11,17 @@
     "hero": {
         "title": "TECH\nWEEK\n2025",
         "subtitle": "Building the largest academic technology gathering in Cameroon",
-        "cta": "Discover More"
+        "cta": "Discover More",
+        "countdown": {
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "seconds": "Seconds"
+        }
+    },
+    "schools": {
+        "title": "Participating Institutions",
+        "subtitle": "Uniting students from major technological institutions across Cameroon"
     },
     "vision": {
         "title": "Vision & Ambition",
@@ -118,5 +128,20 @@
         "school": "National Advanced School of Engineering of Yaoundé (ENSPY)",
         "phone": "Phone",
         "email": "Email"
+    },
+    "partners": {
+        "title": "Partners & Sponsorships",
+        "subtitle": "The success of this initiative relies on the mobilization of key national and international actors",
+        "public": "Public Institutions",
+        "private": "Private Sector",
+        "international": "International Organizations"
+    },
+    "guests": {
+        "title": "Guests of Honor",
+        "subtitle": "Inspirational figures associated with our vision"
+    },
+    "gallery": {
+        "title": "Past Editions",
+        "subtitle": "Relive the best moments of our previous hackathons"
     }
 }

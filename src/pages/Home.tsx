@@ -5,6 +5,8 @@ import Activities from '../components/Activities';
 import Schedule from '../components/Schedule';
 import Impact from '../components/Impact';
 import ParticipatingSchools from '../components/ParticipatingSchools';
+import Partners from '../components/Partners';
+import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <Vision />
       <Schedule />
       <ParticipatingSchools />
+      <Partners />
+      <Gallery />
       <Impact />
       <Contact />
     </div>
