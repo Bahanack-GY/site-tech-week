@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #00f3ff;
+  --color-neon-purple: #bc13fe;
+  --color-deep-space: #0b0c15;
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+@layer base {
+
+  body {
+    @apply bg-deep-space text-white font-body overflow-x-hidden antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-wide;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl;
+  }
+
+  .neon-text {
+    @apply text-neon-cyan drop-shadow-[0_0_10px_#00f3ff80];
+  }
+
+  .neon-border {
+    @apply border border-neon-cyan/50 shadow-[0_0_15px_-3px_#00f3ff4d];
+  }
+}

@@ -1,0 +1,122 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "vision": "Vision",
+        "activities": "Activités",
+        "schedule": "Programme",
+        "schools": "Écoles",
+        "budget": "Budget",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "TECH\nWEEK\n2025",
+        "subtitle": "\"Bâtir le plus grand rassemblement technologique académique du Cameroun\"",
+        "cta": "Découvrir Plus"
+    },
+    "vision": {
+        "title": "Vision & Ambition du Projet",
+        "description": "Fort du succès de ses initiatives précédentes, le Club GI de l’ENSPY ambitionne de passer à une échelle supérieure en organisant la Tech Week 2025. Ce projet vise à créer une synergie inédite entre les grandes écoles d’ingénieurs et le tissu industriel national, faisant de Yaoundé le point de convergence de l’innovation technologique au Cameroun."
+    },
+    "activities": {
+        "title": "Le Concept et les Activités Prévues",
+        "description": "La Tech Week propose un écosystème d’activités variées :",
+        "innovation_fair": "Foire de l’Innovation : 60 stands d’entreprises et d’écoles.",
+        "hackathon": "Hackathon 24h : Marathon de code sur des défis nationaux.",
+        "security": "Cyber-Security Challenge : Compétition de hacking éthique.",
+        "gala": "Gala d’Excellence : Cérémonie de clôture au Hilton Hotel."
+    },
+    "schedule": {
+        "title": "Chronogramme Prévisionnel",
+        "day1": {
+            "title": "Jour 1",
+            "desc": "Ouverture officielle, visite des stands et conférences thématiques."
+        },
+        "day2": {
+            "title": "Jour 2",
+            "desc": "Concours projets secondaires et formations intensives au Pitch."
+        },
+        "day3": {
+            "title": "Jour 3",
+            "desc": "Concours de Pitch (Supérieur) et soirée au Canal Olympia."
+        },
+        "day4": {
+            "title": "Jour 4",
+            "desc": "Grand Concours National de Hacking (Cybersécurité)."
+        },
+        "day5": {
+            "title": "Jour 5",
+            "desc": "Lancement du Hackathon (24 heures non-stop)."
+        },
+        "day6": {
+            "title": "Jour 6",
+            "desc": "Clôture, délibérations et Soirée de GALA au Hilton Hotel."
+        }
+    },
+    "budget": {
+        "title": "Budget Prévisionnel Détaillé",
+        "items": [
+            {
+                "name": "Aménagement & Foire",
+                "desc": "60 stands professionnels, chapiteaux, signalétique...",
+                "amount": "1 300 000"
+            },
+            {
+                "name": "Audiovisuel & Live",
+                "desc": "Sonorisation concert, régie vidéo, Streaming Live...",
+                "amount": "400 000"
+            },
+            {
+                "name": "Communication 360",
+                "desc": "Billboards, 100 affiches, Social Ads, spots Radio/TV...",
+                "amount": "700 000"
+            },
+            {
+                "name": "Kits & Merchandising",
+                "desc": "Kits VIP, T-shirts techniques participants/staff...",
+                "amount": "500 000"
+            },
+            {
+                "name": "Prix & Distinctions",
+                "desc": "Primes cash, Trophées cristal, médailles...",
+                "amount": "1 500 000"
+            },
+            {
+                "name": "Connectivité & IT",
+                "desc": "Fibre optique dédiée + backup VSAT...",
+                "amount": "200 000"
+            },
+            {
+                "name": "Culture & Artistes",
+                "desc": "Cachets de 2 artistes majeurs, prestations de slam...",
+                "amount": "500 000"
+            },
+            {
+                "name": "Restauration & Gala",
+                "desc": "Repas participants, Gala Prestige, Cocktail...",
+                "amount": "2 000 000"
+            },
+            {
+                "name": "Logistique & Transport",
+                "desc": "Prise en charge des délégations hors Yaoundé...",
+                "amount": "1 000 000"
+            },
+            {
+                "name": "Sécurité & Santé",
+                "desc": "50 agents/jour, Ambulance, équipe de nettoyage...",
+                "amount": "500 000"
+            }
+        ],
+        "total": "TOTAL : 8 600 000 FCFA"
+    },
+    "impact": {
+        "title": "Impact et Couverture Média",
+        "description": "La Tech Week 2025 vise une audience cumulée de 1 million de personnes via les réseaux sociaux et les médias partenaires : CRTV, Canal 2, Vision 4, et une couverture internationale par BRUT Afrique."
+    },
+    "contact": {
+        "title": "Contact",
+        "role": "Président du Club Génie Informatique",
+        "school": "École Nationale Supérieure Polytechnique de Yaoundé (ENSPY)",
+        "phone": "Téléphone",
+        "email": "Email"
+    }
+}
