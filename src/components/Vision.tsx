@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Section from './Section';
-import { FaLaptopCode, FaHandshake, FaLightbulb } from 'react-icons/fa';
+import { FaHandshake, FaLightbulb } from 'react-icons/fa';
 
 import TechWeekFinal from '../assets/Tech-week-final.png';
 
